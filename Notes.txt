@@ -1,0 +1,15 @@
+increment: x=y++;
+	   x=y;
+	   y=y+1;
+
+	   x=++y;
+	   y=y+1;	
+	   x=y;
+
+decrement: x=y--;
+	   x=y;
+	   y=y-1;
+
+	   x=--y;
+	   y=y-1;
+	   x=y;							
